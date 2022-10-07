@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Way To Dream Home</title>
+		<link rel="stylesheet" href="style/style.css" />
+		<script
+			src="https://kit.fontawesome.com/d59e0be1e1.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<div class="">
+			<header class="topnav" id="top-nav">
+				<span id="logo"
+					>Way to dream <i class="fa-solid fa-house"></i
+				></span>
+
+				<div class="d-inline nav-items">
+					<a class="text-white p-3 active" href="index.html" target=""
+						>Home</a
+					>
+					<a class="text-white p-3" href="services.html" target=""
+						>Our services</a
+					>
+					<a class="text-white p-3" href="about.html" target=""
+						>About</a
+					>
+					<a class="text-white p-3" href="contact.html">Contact</a>
+					<a href=""
+						><i
+							class="fa-solid fa-lg fa-circle-half-stroke p-3 theme"
+							id="change-theme"
+							onclick="changeTheme()"
+						></i
+					></a>
+				</div>
+				<a
+					href="javascript:void(0);"
+					class="icon"
+					onclick="addHamburger()"
+				>
+					<i class="fa-solid fa-bars"></i>
+				</a>
+			</header>
+			<section class="section-1 container p-3">
+				<div
+					id="carouselExampleCaptions"
+					class="carousel slide caro"
+					data-bs-ride="false"
+				>
+					<div class="carousel-indicators">
+						<button
+							type="button"
+							data-bs-target="#carouselExampleCaptions"
+							data-bs-slide-to="0"
+							class="active"
+							aria-current="true"
+							aria-label="Slide 1"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#carouselExampleCaptions"
+							data-bs-slide-to="1"
+							aria-label="Slide 2"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#carouselExampleCaptions"
+							data-bs-slide-to="2"
+							aria-label="Slide 3"
+						></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img
+								src="images/caro1.jpg"
+								class="d-block w-100"
+								alt="Villas"
+							/>
+							<div class="carousel-caption d-none d-md-block cap">
+								<h5>Beautiful Villas</h5>
+								<p>
+									Great location overall for sightseeing,
+									recreation, dining and getting around. Enjoy
+									the area's slopes with skiing, and don't
+									miss out on the ice skating.
+								</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="images/caro2.jpg"
+								class="d-block img-fluid"
+								alt="Apartments"
+							/>
+							<div class="carousel-caption d-none d-md-block cap">
+								<h5>Find your dream home</h5>
+								<p>
+									Choose from over million apartments, houses,
+									condos, and townhomes for rent with your own
+									pool.
+								</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="images/caro3.jpg"
+								class="d-block w-100 h-50 image-caro"
+								alt="pretty House"
+							/>
+							<div class="carousel-caption d-none d-md-block cap">
+								<h5>Pretty House</h5>
+								<p>
+									Our available houses are located in suburban
+									and city centre locations in growing cities.
+									As a tenant, we want you to feel safe and
+									happy
+								</p>
+							</div>
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#carouselExampleCaptions"
+						data-bs-slide="prev"
+					>
+						<span
+							class="carousel-control-prev-icon"
+							aria-hidden="true"
+						></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#carouselExampleCaptions"
+						data-bs-slide="next"
+					>
+						<span
+							class="carousel-control-next-icon"
+							aria-hidden="true"
+						></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</section>
+			<section>
+				<h3 class="text-center text-info pt-3 pb-3">
+					We offer different type of apartment
+				</h3>
+				<div class="main-sec">
+					<div class="container">
+						<div class="row align-items-start">
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/vil2.jpg"
+									alt=""
+								/>
+								<h6 class="text-info text-center pt-2">
+									Villas
+								</h6>
+							</div>
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/rum3.jpg"
+									alt=""
+								/>
+								<h6 class="text-info text-center pt-2">
+									Single room
+								</h6>
+							</div>
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/plot2.jpg"
+									alt=""
+								/>
+								<h6 class="text-info text-center pt-2">
+									Plots
+								</h6>
+							</div>
+						</div>
+						<hr />
+						<div class="row align-items-start">
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/apt5.jpg"
+									alt=""
+								/>
+								<h6 class="text-info text-center pt-2">
+									Apartments
+								</h6>
+							</div>
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/apt6.jpg"
+									alt=""
+								/>
+								<h6 class="text-info text-center pt-2">
+									Student apartments
+								</h6>
+							</div>
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/apt4.jpg"
+									alt=""
+								/>
+								<h6 class="text-info text-center pt-2">
+									Senior citizen apartments
+								</h6>
+							</div>
+						</div>
+						<br />
+					</div>
+				</div>
+			</section>
+			<footer>
+				<div class="container">
+					<div class="row align-items-start">
+						<div class="col-sm-6 col-lg-4 col-xs-12 nav-tab">
+							<br />
+							<br />
+							<p>
+								<a
+									href="mailto:admin@waytodreamhome.com"
+									target="_blank"
+									>admin@waytodreamhome.com</a
+								>
+							</p>
+							<p class="text-white">Tel: 077- 00 00 00</p>
+						</div>
+						<div class="col-sm-6 col-lg-4 col-xs-12 nav-tab">
+							<a
+								class="text-white p-3 d-block"
+								href="services.html"
+								target=""
+								>Our services</a
+							>
+							<a
+								class="text-white p-3 d-block"
+								href="about.html"
+								target=""
+								>About</a
+							>
+							<a
+								class="text-white p-3 d-block"
+								href="contact.html"
+								>Contact</a
+							>
+						</div>
+						<div class="col-lg-4 col-xs-12 nav-tab">
+							<h4 class="text-white">
+								Follow Us On Social Media
+							</h4>
+							<br />
+							<a href="https://www.facebook.com/" class="d-block"
+								><i class="fa-brands fa-facebook"></i>
+								Facebook</a
+							>
+							<br />
+							<a href="https://www.instagram.com/" class="d-block"
+								><i class="fa-brands fa-instagram"></i>
+								Instagram</a
+							>
+						</div>
+					</div>
+				</div>
+				<h4 class="text-white p-3">© 2022 Made with ❤️ by Meena</h4>
+			</footer>
+		</div>
+		<script src="main.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+			integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

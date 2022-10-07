@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Services-Way To Dream Home</title>
+		<link rel="stylesheet" href="style/style.css" />
+		<script
+			src="https://kit.fontawesome.com/d59e0be1e1.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body>
+		<div class="">
+			<header class="topnav" id="top-nav">
+				<span id="logo"
+					>Way to dream <i class="fa-solid fa-house"></i
+				></span>
+
+				<div class="d-inline nav-items">
+					<a class="text-white p-3 active" href="index.html" target=""
+						>Home</a
+					>
+					<a class="text-white p-3" href="services.html" target=""
+						>Our services</a
+					>
+					<a class="text-white p-3" href="about.html" target=""
+						>About</a
+					>
+					<a class="text-white p-3" href="contact.html">Contact</a>
+					<a href=""
+						><i
+							class="fa-solid fa-lg fa-circle-half-stroke p-3 theme"
+							id="change-theme"
+							onclick="changeTheme()"
+						></i
+					></a>
+				</div>
+				<a
+					href="javascript:void(0);"
+					class="icon"
+					onclick="addHamburger()"
+				>
+					<i class="fa-solid fa-bars"></i>
+				</a>
+			</header>
+			<section class="section-1 p-3">
+				<h1 class="p-5 text-info text-center">
+					Here are the different services we offer
+				</h1>
+				<h3 class="text-info">Villas</h3>
+				<div class="main-sec">
+					<div class="container">
+						<div class="row align-items-start">
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/vil1.jpg"
+									alt="villa image"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc()"
+								>
+									Frölunda Torg
+								</h6>
+							</div>
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/vil2.jpg"
+									alt="villa image"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc()"
+								>
+									Kortedala Torg
+								</h6>
+							</div>
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/vil8.jpg"
+									alt="villa image"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc()"
+								>
+									Göteborg
+								</h6>
+							</div>
+						</div>
+						<p id="desc1" class="p-2 border border-info">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Ipsam rerum beatae obcaecati fugiat. Incidunt
+							rem laboriosam a alias nobis quia in. Ut repellendus
+							recusandae doloremque reiciendis dicta ipsam
+							similique voluptates. <br />
+							<br />
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Ipsam rerum beatae obcaecati fugiat. Incidunt
+							rem laboriosam a alias nobis quia in. Ut repellendus
+							recusandae doloremque reiciendis dicta ipsam
+							similique voluptates.
+						</p>
+						<br />
+						<div class="row align-items-start">
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/vil4.jpg"
+									alt="villa image"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc1()"
+								>
+									Askim
+								</h6>
+							</div>
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/vil5.jpg"
+									alt="villa image"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc1()"
+								>
+									Hovas
+								</h6>
+							</div>
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/vil6.jpg"
+									alt="villa image"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc1()"
+								>
+									Uppsala
+								</h6>
+							</div>
+						</div>
+						<p id="desc2" class="p-2 border border-info">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Ipsam rerum beatae obcaecati fugiat. Incidunt
+							rem laboriosam a alias nobis quia in. Ut repellendus
+							recusandae doloremque reiciendis dicta ipsam
+							similique voluptates. <br />
+							<br />
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Ipsam rerum beatae obcaecati fugiat. Incidunt
+							rem laboriosam a alias nobis quia in. Ut repellendus
+							recusandae doloremque reiciendis dicta ipsam
+							similique voluptates.
+						</p>
+						<br />
+					</div>
+				</div>
+				<hr />
+				<h3 class="text-info">Apartments</h3>
+				<div class="main-sec">
+					<div class="container">
+						<div class="row align-items-start">
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/apt1.jpg"
+									alt="Apartments"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc2()"
+								>
+									City center
+								</h6>
+							</div>
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/apt2.jpg"
+									alt="Apartments"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc2()"
+								>
+									Gamlestan
+								</h6>
+							</div>
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/apt3.jpg"
+									alt="Apartments"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc2()"
+								>
+									Stockholm
+								</h6>
+							</div>
+						</div>
+						<p id="desc3" class="p-2 border border-info">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Ipsam rerum beatae obcaecati fugiat. Incidunt
+							rem laboriosam a alias nobis quia in. Ut repellendus
+							recusandae doloremque reiciendis dicta ipsam
+							similique voluptates. <br />
+							<br />
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Ipsam rerum beatae obcaecati fugiat. Incidunt
+							rem laboriosam a alias nobis quia in. Ut repellendus
+							recusandae doloremque reiciendis dicta ipsam
+							similique voluptates.
+						</p>
+						<br />
+						<div class="row align-items-start">
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/apt4.jpg"
+									alt="Apartments"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc3()"
+								>
+									Frölunda Torg
+								</h6>
+							</div>
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/apt5.jpg"
+									alt="Apartments"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc3()"
+								>
+									Järntorget
+								</h6>
+							</div>
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/apt6.jpg"
+									alt="Apartments"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc3()"
+								>
+									Marklandsgatan
+								</h6>
+							</div>
+						</div>
+						<p id="desc4" class="p-2 border border-info">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Ipsam rerum beatae obcaecati fugiat. Incidunt
+							rem laboriosam a alias nobis quia in. Ut repellendus
+							recusandae doloremque reiciendis dicta ipsam
+							similique voluptates. <br />
+							<br />
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Ipsam rerum beatae obcaecati fugiat. Incidunt
+							rem laboriosam a alias nobis quia in. Ut repellendus
+							recusandae doloremque reiciendis dicta ipsam
+							similique voluptates.
+						</p>
+						<br />
+					</div>
+				</div>
+				<hr />
+				<h3 class="text-info">Plots</h3>
+				<div class="main-sec">
+					<div class="container">
+						<div class="row align-items-start">
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/plot1.jpg"
+									alt="Plots"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc4()"
+								>
+									Göteborg
+								</h6>
+							</div>
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/plot2.jpg"
+									alt="Plots"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc4()"
+								>
+									Hisingen
+								</h6>
+							</div>
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/plot3.jpg"
+									alt="Plots"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc4()"
+								>
+									Norra hisingen
+								</h6>
+							</div>
+						</div>
+						<p id="desc5" class="p-2 border border-info">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Ipsam rerum beatae obcaecati fugiat. Incidunt
+							rem laboriosam a alias nobis quia in. Ut repellendus
+							recusandae doloremque reiciendis dicta ipsam
+							similique voluptates. <br />
+							<br />
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Ipsam rerum beatae obcaecati fugiat. Incidunt
+							rem laboriosam a alias nobis quia in. Ut repellendus
+							recusandae doloremque reiciendis dicta ipsam
+							similique voluptates.
+						</p>
+						<br />
+					</div>
+				</div>
+				<hr />
+				<h3 class="text-info">Others</h3>
+				<div class="main-sec">
+					<div class="container">
+						<div class="row align-items-start">
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/rum1.jpg"
+									alt="Single room"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc5()"
+								>
+									City center
+								</h6>
+							</div>
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/rum2.jpg"
+									alt="Single room"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc5()"
+								>
+									Uppsala
+								</h6>
+							</div>
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/rum3.jpg"
+									alt="Single room"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc5()"
+								>
+									Frölunda Torg
+								</h6>
+							</div>
+						</div>
+						<p id="desc6" class="p-2 border border-info">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Ipsam rerum beatae obcaecati fugiat. Incidunt
+							rem laboriosam a alias nobis quia in. Ut repellendus
+							recusandae doloremque reiciendis dicta ipsam
+							similique voluptates. <br />
+							<br />
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Ipsam rerum beatae obcaecati fugiat. Incidunt
+							rem laboriosam a alias nobis quia in. Ut repellendus
+							recusandae doloremque reiciendis dicta ipsam
+							similique voluptates.
+						</p>
+						<br />
+						<div class="row align-items-start">
+							<div class="col-lg-4 col-xs-12">
+								<img
+									class="w-100"
+									src="images/rum4.jpg"
+									alt="Single room"
+								/>
+								<h6
+									class="text-info text-center pt-3"
+									onclick="showDesc6()"
+								>
+									Frölunda Torg
+								</h6>
+							</div>
+							<div class="col-8"></div>
+						</div>
+						<p id="desc7" class="p-2 border border-info">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Ipsam rerum beatae obcaecati fugiat. Incidunt
+							rem laboriosam a alias nobis quia in. Ut repellendus
+							recusandae doloremque reiciendis dicta ipsam
+							similique voluptates. <br />
+							<br />
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Ipsam rerum beatae obcaecati fugiat. Incidunt
+							rem laboriosam a alias nobis quia in. Ut repellendus
+							recusandae doloremque reiciendis dicta ipsam
+							similique voluptates.
+						</p>
+						<br />
+					</div>
+				</div>
+			</section>
+			<footer>
+				<div class="container">
+					<div class="row align-items-start">
+						<div class="col-sm-6 col-lg-4 col-xs-12 nav-tab">
+							<br />
+							<br />
+							<p>
+								<a
+									href="mailto:admin@waytodreamhome.com"
+									target="_blank"
+									>admin@waytodreamhome.com</a
+								>
+							</p>
+							<p class="text-white">Tel: 077- 00 00 00</p>
+						</div>
+						<div class="col-sm-6 col-lg-4 col-xs-12 nav-tab">
+							<a
+								class="text-white p-3 d-block"
+								href="services.html"
+								target=""
+								>Our services</a
+							>
+							<a
+								class="text-white p-3 d-block"
+								href="about.html"
+								target=""
+								>About</a
+							>
+							<a
+								class="text-white p-3 d-block"
+								href="contact.html"
+								>Contact</a
+							>
+						</div>
+						<div class="col-lg-4 col-xs-12 nav-tab">
+							<h4 class="text-white">
+								Follow Us On Social Media
+							</h4>
+							<br />
+							<a href="https://www.facebook.com/" class="d-block"
+								><i class="fa-brands fa-facebook"></i>
+								Facebook</a
+							>
+							<br />
+							<a href="https://www.instagram.com/" class="d-block"
+								><i class="fa-brands fa-instagram"></i>
+								Instagram</a
+							>
+						</div>
+					</div>
+				</div>
+				<h4 class="text-white p-3">© 2022 Made with ❤️ by Meena</h4>
+			</footer>
+		</div>
+		<script src="main.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+			integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
